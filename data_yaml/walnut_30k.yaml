@@ -1,0 +1,8 @@
+train: f:/walnut/walnut_30k/train/images  # train images (relative to 'path') 128 images
+val: f:/walnut/walnut_30k/val/images  # val images (relative to 'path') 128 images
+test: f:/walnut/walnut_30k/test/images
+
+nc: 4
+
+# Classes
+names: ['Front-lit Clear', 'Backlit Clear', 'Front-lit Occluded', 'Backlit Occluded']
